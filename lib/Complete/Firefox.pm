@@ -9,7 +9,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-require Exporter 'import';
+use Exporter 'import';
 our @EXPORT_OK = qw(
                        complete_firefox_profile_name
                );
@@ -30,6 +30,7 @@ $SPEC{complete_firefox_profile_name} = {
             pos => 0,
         },
     },
+    result_naked => 1,
 };
 sub complete_firefox_profile_name {
     require Complete::Util;
