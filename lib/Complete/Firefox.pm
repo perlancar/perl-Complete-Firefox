@@ -23,6 +23,7 @@ $SPEC{':package'} = {
 
 $SPEC{complete_firefox_profile_name} = {
     v => 1.1,
+    summary => 'Complete from a list of Firefox profile names',
     args => {
         word => {
             schema => 'str*',
