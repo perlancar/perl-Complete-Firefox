@@ -2,3 +2,4 @@ Complete-Firefox-*
 .build
 *~
 nytprof*
+.DS_Store
